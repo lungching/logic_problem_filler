@@ -1,0 +1,24 @@
+=name
+abe
+beth
+chuck
+
+=color
+blue
+green
+red
+
+=animal
+dog
+cat
+camel
+
+=constraints
+abe(name) = blue(color)
+dog(animal) = green(color)
+beth(name) = cat(animal)
+abe(name) != camel(animal)
+camel(animal) != red(color)
+chuck(name) != red(color)
+green(color) > dog(animal)
+blue(color) > chuck(name) and red(color) < beth(name) or blue(color) < chuck(name) and red(color) > beth(name)

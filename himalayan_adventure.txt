@@ -1,0 +1,38 @@
+=year(range)
+2014
+2015
+2016
+2017
+2018
+
+=person
+henry
+isabel
+stephanie
+victoria
+william
+
+=mountain
+annapurna
+dhaulagiri
+k-2
+mount everest
+nanda devi
+
+=constraints
+isabel(partner) != k-2(mountain)
+k-2(mountain) > 2014(year)
+stephanie(person) != nanda devi(mountain)
+nanda dev(mountain) > 2015(year) and stephanie(person) < 2017(year) or nanada dev(mountain) < 2017(year) and stephanie(person) > 2015(year)
+stephanie(person)'s year + 2 = nanda dev(mountain)'s year or nanda dev(mountain)'s year + 2 = stephanie(person)'s year
+william(person) != 2018(year)
+isabel(person) < 2017(year)
+victoria(person) != annapurna(mountain)
+victoria(person) < 2018(year)
+annapurna(mountain) > 2014(year)
+henry(person) != mount everest(mountain)
+henry(person) > 2014(year) and mount everest(mountain) < 2018(year) or henry(person) < 2018(year) and mount everest(mountain) > 2014(year)
+henry(person)'s year + 1 = mount everest(moutain)'s year or mount everest(mountain)'s year + 1 = henry(person)'s year
+stephanie(person) != dhaulagiri(mountain)
+stephanie(person) < 2018(year)
+dhaulagiri(mountain) > 2014(year)
